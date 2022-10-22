@@ -73,7 +73,7 @@ class UsersController {
         .runQuery('DELETE FROM `users_table` WHERE userId = $userId;');
     if (result.affectedRows != BigInt.from(0)) {
       return {
-        'error': 'User Deleted',
+        'success': 'User Deleted',
       };
     } else {
       return {'error': "User Don't Exists"};
@@ -87,7 +87,7 @@ class UsersController {
         .runQuery("DELETE FROM `users_table`");
     if (result.affectedRows != BigInt.from(0)) {
       return {
-        'error': 'Users Deleted',
+        'success': 'Users Deleted',
       };
     } else {
       return {'error': "Users Don't Exists"};
