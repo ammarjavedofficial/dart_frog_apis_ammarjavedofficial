@@ -6,7 +6,7 @@
 
 An application built with dart_frog on How to Create APIs with Dart Frog Backend Server For Flutter / Dart
 
-Read Article - https://ammarjaved.com/create-apis-with-dart-frog-backend-server-for-dart-flutter
+Read Article - https://ammarjaved.com/create-api-dart-frog-flutter/
 
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license_link]: https://opensource.org/licenses/MIT
